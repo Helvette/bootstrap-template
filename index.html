@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Template Bootstrap</title>
+
+	<!-- Viewport -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+	<!-- Link al CDN de Bootstrap -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Bootstrap Theme</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">One more separated link</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+<section class="container-fluid">
+	<div class="jumbotron">
+  	<h1>Theme example</h1>
+  	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor voluptatibus tempora ipsum architecto vel eveniet quaerat cupiditate id aperiam, magni laboriosam cumque rem impedit, non ad sed, adipisci atque quae.</p>
+  	<p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
+	</div>
+</section>
+
+<section class="container-fluid">
+	<div class="page-header">
+  	<h1>Buttons</h1>
+	</div>
+	<div class="row button-row">
+		<button type="button" class="btn btn-default btn-lg">Default</button>
+		<button type="button" class="btn btn-primary btn-lg">Primary</button>
+		<button type="button" class="btn btn-succes btn-lg">Succes</button>
+		<button type="button" class="btn btn-info btn-lg">Info</button>
+		<button type="button" class="btn btn-warning btn-lg">Warning</button>
+		<button type="button" class="btn btn-danger btn-lg">Danger</button>
+		<button type="button" class="btn btn-lg btn-link">Link</button>
+	</div>
+	<div class="row button-row">
+		<button type="button" class="btn btn-default">Default</button>
+		<button type="button" class="btn btn-primary">Primary</button>
+		<button type="button" class="btn btn-succes">Succes</button>
+		<button type="button" class="btn btn-info">Info</button>
+		<button type="button" class="btn btn-warning">Warning</button>
+		<button type="button" class="btn btn-danger">Danger</button>
+		<button type="button" class="btn btn-link">Link</button>
+	</div>
+	<div class="row button-row">
+		<button type="button" class="btn btn-default btn-sm">Default</button>
+		<button type="button" class="btn btn-primary btn-sm">Primary</button>
+		<button type="button" class="btn btn-succes btn-sm">Succes</button>
+		<button type="button" class="btn btn-info btn-sm">Info</button>
+		<button type="button" class="btn btn-warning btn-sm">Warning</button>
+		<button type="button" class="btn btn-danger btn-sm">Danger</button>
+		<button type="button" class="btn btn-sm btn-link">Link</button>
+	</div>
+	<div class="row button-row">
+		<button type="button" class="btn btn-default btn-xs">Default</button>
+		<button type="button" class="btn btn-primary btn-xs">Primary</button>
+		<button type="button" class="btn btn-succes btn-xs">Succes</button>
+		<button type="button" class="btn btn-info btn-xs">Info</button>
+		<button type="button" class="btn btn-warning btn-xs">Warning</button>
+		<button type="button" class="btn btn-danger btn-xs">Danger</button>
+		<button type="button" class="btn btn-xs btn-link">Link</button>
+	</div>
+</section>
+
+<section class="container-fluid">
+	<div class="page-header">
+  	<h1>Tables</h1>
+	</div>
+	<div class="row">
+		<div class="col-lg-6">
+		  <table class="table">
+		    <thead>
+		      <tr>
+		        <th>#</th>
+		          <th>First Name</th>
+		          <th>Last Name</th>
+		          <th>Username</th>
+		          </tr>
+		        </thead>
+		        <tbody>
+		          <tr>
+		            <th scope="row">1</th>
+		            <td>Mark</td>
+		            <td>Otto</td>
+		            <td>@mdo</td>
+		            </tr>
+		          <tr>
+		            <th scope="row">2</th>
+		            <td>Jacob</td>
+		            <td>Thornton</td>
+		            <td>@fat</td>
+		          </tr>
+		          <tr>
+		            <th scope="row">3</th>
+		            <td>Larry</td>
+		            <td>the Bird</td>
+		            <td>@twitter</td>
+		          </tr>
+		        </tbody>
+		    </table>
+		</div>
+		<div class="col-lg-6">
+		  <table class="table table-striped">
+		    <thead>
+		      <tr>
+		        <th>#</th>
+		        <th>First Name</th>
+		        <th>Last Name</th>
+		        <th>Username</th>
+		      </tr>
+		    </thead>
+		      <tbody>
+		        <tr>
+		          <th scope="row">1</th>
+		          <td>Mark</td>
+		          <td>Otto</td>
+		          <td>@mdo</td>
+		        </tr>
+		        <tr>
+		          <th scope="row">2</th>
+		          <td>Jacob</td>
+		          <td>Thornton</td>
+		          <td>@fat</td>
+		        </tr>
+		        <tr>
+		          <th scope="row">3</th>
+		          <td>Larry</td>
+		          <td>the Bird</td>
+		          <td>@twitter</td>
+		        </tr>
+		      </tbody>
+		    </table>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-lg-6">
+		  <table class="table table-bordered">
+		    <thead>
+		      <tr>
+		      	<th>#</th>
+		        <th>First Name</th>
+		        <th>Last Name</th>
+		        <th>Username</th>
+		      </tr>
+		    </thead>
+		    <tbody>
+		      <tr>
+		        <th scope="row" rowspan="2">1</th>
+		          <td>Mark</td>
+		          <td>Otto</td>
+		          <td>@mdo</td>
+		       </tr>
+		        <tr>
+		          <td>Mark</td>
+		          <td>Otto</td>
+		          <td>TW Bootstrap</td>
+		        </tr>
+		        <tr>
+		          <th scope="row">2</th>
+		          	<td>Jacob</td>
+		          	<td>Thornton</td>
+		            <td>@fat</td>
+		        </tr>
+		        <tr>
+		          <th scope="row">3</th>
+		          <td colspan="2">Larry the Bird</td>
+		          <td>@twitter</td>
+		        </tr>
+		    	</tbody>
+		    </table>
+		</div>
+		<div class="col-lg-6">
+		  <table class="table">
+		    <thead>
+		      <tr>
+		        <th>#</th>
+		        <th>First Name</th>
+		        <th>Last Name</th>
+		        <th>Username</th>
+		      </tr>
+		      </thead>
+		      <tbody>
+		        <tr>
+		          <th scope="row">1</th>
+		          <td>Mark</td>
+		          <td>Otto</td>
+		          <td>@mdo</td>
+		        </tr>
+		        <tr>
+		          <th scope="row">2</th>
+		          <td>Jacob</td>
+		          <td>Thornton</td>
+		          <td>@fat</td>
+		        </tr>
+		        <tr>
+		          <th scope="row">3</th>
+		          <td coslpan="2">Larry the Bird</td>
+		          <td>@twitter</td>
+		        </tr>
+		      </tbody>
+		    </table>
+		</div>
+	</div>
+</section>
+
+<section class="container-fluid">
+	<div class="page-header">
+  	<h1>Buttons</h1>
+	</div>
+</section>
+
+
+<!-- Link a JQuery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!-- Link a los componentes JS de Bootstrap -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
+</html>
